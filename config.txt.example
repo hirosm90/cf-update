@@ -1,0 +1,27 @@
+# 
+# Create config.txt for cloudflare-update authorization and default settings
+#
+
+# Auth EMail for Cloudflare API
+auth_email="xxxx@gmail.com"
+
+# Auth API Key for Cloudflare API 
+auth_key="abcdefghijk1234567890"
+
+# DNS Zone Name
+zone_name="domain.com"
+
+# Host Name
+record_name="host01.domain.com"
+
+# Record type AAAA or A
+rec_type=AAAA
+
+# Interface dev name
+iface=eth0   #interface to obtain IP address
+
+content=""
+
+# FQDN of IPV4 assigned by PPPoE to determine outside IP addr
+ipv4outsidename="pppoe12345.some_provider.com"
+
